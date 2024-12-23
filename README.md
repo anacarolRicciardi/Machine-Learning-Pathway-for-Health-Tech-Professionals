@@ -87,8 +87,9 @@ This learning pathway bridges the gap between these domains, helping you build p
 
 ## 🔗 **Additional Resources**
 - **Books**:
-  - "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow" by Aurélien Géron
-  - "Deep Medicine" by Eric Topol
+  - "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow" by Aurélien Géron [Link Amazon](https://www.amazon.com.br/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646) 
+  - "Deep Medicine" by Eric Topol  [Link Amazon](https://www.amazon.com.br/Medicina-Profunda-Intelig%C3%AAncia-Artificial-Reumanizar/dp/6558821796/ref=sr_1_1?adgrpid=1140194216474163&dib=eyJ2IjoiMSJ9.FNLLWKVmA-9YVqqaVIUzOpLeIosDhwWPyLBKYm2KSg3l-90rxdM14wWzhnDLEEBnIEwZQ3dh8-cVbcmeWYrkASfvu-Kpv-xeK5htBX6hei4IfIfugMn7CxnX2TU4ugSvwD5eH3OKOXlbJHBPo_4gkBo-q377oI-uoOnJTUkC1mo.MrMSpdElPUsqAbkcWg69NDkAjUaEwCyORRLgyu8v4t8&dib_tag=se&hvadid=71262304253092&hvbmt=be&hvdev=c&hvlocphy=147554&hvnetw=o&hvqmt=e&hvtargid=kwd-71262654392972%3Aloc-20&hydadcr=5655_13210322&keywords=deep+medicine+eric+topol&qid=1734972677&sr=8-1&ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9)
+  - 
 - **Communities**:
   - [Google AI Communities](https://googlecloudcommunity.com/gc/AI-ML/bd-p/cloud-ai-ml)
   - [Google Developer Groups](https://developers.google.com/community?hl=pt-br)
