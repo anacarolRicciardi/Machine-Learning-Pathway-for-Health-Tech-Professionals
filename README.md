@@ -99,6 +99,6 @@ Feel free to contribute to this repository by adding more resources or suggestin
 ---
 
 **Created by:** Ana Carolina Ricciardi
-**License:** MIT  
+
 **Contributions Welcome!**
 
