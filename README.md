@@ -84,8 +84,8 @@ Welcome to the **Machine Learning for Health and Technology Professionals** lear
   - "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow" by Aurélien Géron
   - "Deep Medicine" by Eric Topol
 - **Communities**:
-  - [Google AI Communities](https://ai.google/community/)
-  - [Google Developer Groups](https://developers.google.com/community/gdg)
+  - [Google AI Communities](https://googlecloudcommunity.com/gc/AI-ML/bd-p/cloud-ai-ml)
+  - [Google Developer Groups](https://developers.google.com/community?hl=pt-br)
 
 ---
 
