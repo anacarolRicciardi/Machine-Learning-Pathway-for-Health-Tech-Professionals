@@ -1,0 +1,108 @@
+# Machine Learning para Profissionais Híbridos em Saúde e Tecnologia
+
+Bem-vindo ao **Machine Learning para Profissionais Híbridos em Saúde e Tecnologia**! Este guia foi criado para indivíduos que atuam na interseção entre saúde e tecnologia, capacitando-os a aplicar conceitos e ferramentas de machine learning de forma eficaz em suas áreas.
+
+## 🌟 **Para quem é este guia?**
+Este guia é destinado a:
+- **Profissionais de saúde** que desejam incorporar IA e ML em fluxos de trabalho clínicos, decisões operacionais ou pesquisas.
+- **Profissionais de tecnologia** que buscam expandir sua expertise em aplicações na área da saúde.
+- Indivíduos com formações em **fisioterapia, medicina, ciência de dados, desenvolvimento de software** ou áreas relacionadas.
+
+## 🎯 **Por que seguir esta trilha?**
+Saúde e tecnologia estão convergindo rapidamente, com o machine learning desempenhando um papel transformador em:
+- Diagnóstico de doenças usando imagens médicas.
+- Otimização do atendimento ao paciente e eficiência operacional.
+- Análise de grandes volumes de dados, como registros eletrônicos de saúde (EHRs).
+
+Esta trilha de aprendizagem conecta essas áreas, ajudando você a construir soluções práticas e impactantes com ferramentas como Google AI, TensorFlow e muito mais.
+
+## 🎯 **Objetivos de Aprendizagem**
+1. Compreender os fundamentos de machine learning e inteligência artificial.
+2. Adquirir experiência prática com ferramentas e frameworks de ML.
+3. Aprender a trabalhar com dados de saúde (por exemplo, imagens médicas, EHRs).
+4. Explorar aplicações reais de ML na área da saúde.
+5. Manter-se atualizado sobre considerações éticas e regulatórias.
+
+---
+
+## 📚 **Trilha de Aprendizagem**
+
+### 1. **Conceitos Fundamentais**
+   - **O que é Machine Learning?**
+     - [Google AI: Learn with Google AI](https://ai.google/education/)
+     - [Google Developers: Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course)
+   - **Principais Algoritmos de ML**
+     - Regressão Linear, Árvores de Decisão, Redes Neurais
+     - [Google Developers: Key Concepts](https://developers.google.com/machine-learning/crash-course/ml-intro)
+
+### 2. **Python para ML**
+   - Aprenda os fundamentos de Python para manipulação e visualização de dados:
+     - [Google: Python Basics for Data Science](https://developers.google.com/edu/python)
+   - Prática com bibliotecas:
+     - **NumPy**, **Pandas**, **Matplotlib**, **Seaborn**
+     - [Google Colab: Seu Ambiente de ML](https://colab.research.google.com/)
+
+### 3. **Técnicas de Machine Learning**
+   - **Aprendizado Supervisionado**: Regressão, Classificação
+   - **Aprendizado Não Supervisionado**: Clusterização, Redução de Dimensionalidade
+   - **Deep Learning**: Redes Neurais, CNNs, RNNs
+     - [Google TensorFlow: Tutoriais de Deep Learning](https://www.tensorflow.org/tutorials)
+   - **Scikit-Learn para Iniciantes**
+     - [Google Colab: Exemplos com Scikit-Learn](https://colab.research.google.com/github/ageron/handson-ml3/blob/main/03_classification.ipynb)
+
+### 4. **Aplicações Específicas para Saúde**
+   - **Imagens Médicas**:
+     - [Google Research: IA para Imagens Médicas](https://research.google/blog/using-generative-ai-to-investigate-medical-imagery-models-and-datasets/)
+   - **Registros Eletrônicos de Saúde (EHRs)**:
+     - [Google Cloud Healthcare API](https://cloud.google.com/healthcare-api)
+   - **Análise Preditiva**:
+     - [Google AI Blog: Inovações em Saúde](https://ai.googleblog.com/)
+
+### 5. **Ferramentas e Plataformas**
+   - **Google Colab**: Ambiente baseado em nuvem para Python e ML.
+     - [Google Colab Oficial](https://colab.research.google.com/)
+   - **TensorFlow**: Framework de deep learning do Google.
+     - [Tutoriais TensorFlow](https://www.tensorflow.org/tutorials)
+   - **AutoML do Google Cloud**: Machine learning automatizado para iniciantes.
+     - [Google Cloud AutoML](https://cloud.google.com/automl)
+
+### 6. **Ética e Regulações**
+   - **IA na Saúde**:
+     - [Práticas de IA Responsável do Google](https://ai.google/responsibilities/responsible-ai-practices/)
+   - **Privacidade de Dados**: HIPAA, GDPR
+     - [Conformidade do Google Cloud](https://cloud.google.com/security/compliance)
+
+---
+
+## 🛠️ **Projetos e Prática**
+- Desenvolva um **Modelo de Previsão de Doenças**:
+  - Dataset: [Conjuntos de Dados do Google](https://datasetsearch.research.google.com/)
+- Analise **Dados de Pacientes** para tendências:
+  - Ferramentas: Google Colab, Pandas, Matplotlib
+- Crie um **Modelo para Gerar Dados Sintéticos Diversos de Imagens Médicas**:
+  - Dataset: [Google Research](https://research.google/blog/generating-diverse-synthetic-medical-image-data-for-training-machine-learning-models/)
+
+---
+
+## 🔗 **Recursos Adicionais**
+- **Livros**:
+  - "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow" de Aurélien Géron [Link Amazon](https://www.amazon.com.br/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646)
+  - "Deep Medicine" de Eric Topol [Link Amazon](https://www.amazon.com.br/Medicina-Profunda-Intelig%C3%AAncia-Artificial-Reumanizar/dp/6558821796/ref=sr_1_1?adgrpid=1140194216474163&dib=eyJ2IjoiMSJ9.FNLLWKVmA-9YVqqaVIUzOpLeIosDhwWPyLBKYm2KSg3l-90rxdM14wWzhnDLEEBnIEwZQ3dh8-cVbcmeWYrkASfvu-Kpv-xeK5htBX6hei4IfIfugMn7CxnX2TU4ugSvwD5eH3OKOXlbJHBPo_4gkBo-q377oI-uoOnJTUkC1mo.MrMSpdElPUsqAbkcWg69NDkAjUaEwCyORRLgyu8v4t8&dib_tag=se&hvadid=71262304253092&hvbmt=be&hvdev=c&hvlocphy=147554&hvnetw=o&hvqmt=e&hvtargid=kwd-71262654392972%3Aloc-20&hydadcr=5655_13210322&keywords=deep+medicine+eric+topol&qid=1734972677&sr=8-1&ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9)
+- **Comunidades**:
+  - [Comunidades de IA do Google](https://googlecloudcommunity.com/gc/AI-ML/bd-p/cloud-ai-ml)
+  - [Grupos de Desenvolvedores do Google](https://developers.google.com/community?hl=pt-br)
+
+---
+
+## 🚀 **Próximos Passos**
+1. Comece pequeno: Trabalhe em um projeto de ML relacionado à saúde.
+2. Colabore com colegas: Participe de fóruns e discussões.
+3. Mantenha-se curioso: Explore os avanços recentes de ML na área da saúde.
+
+Sinta-se à vontade para contribuir com este repositório adicionando mais recursos ou sugerindo melhorias! 🤝
+
+---
+
+**Criado por:** Ana Carolina Ricciardi
+
+**Contribuições Bem-vindas!**
