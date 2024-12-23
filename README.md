@@ -74,8 +74,8 @@ Welcome to the **Machine Learning for Health and Technology Professionals** lear
   - Dataset: [Google Datasets](https://datasetsearch.research.google.com/)
 - Analyze **Patient Data** for trends:
   - Tools: Google Colab, Pandas, Matplotlib
-- Create a **Medical Image Classifier**:
-  - Dataset: [Google Research Medical Imaging](https://ai.google/research/teams/brain/healthcare/)
+- Create a **Generating Diverse Synthetic Medical Image Data for Training Machine Learning Models**:
+  - Dataset: [Google Research](https://research.google/blog/generating-diverse-synthetic-medical-image-data-for-training-machine-learning-models/)
 
 ---
 
