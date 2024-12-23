@@ -47,7 +47,7 @@ Welcome to the **Machine Learning for Health and Technology Professionals** lear
 
 ### 4. **Healthcare-Specific Applications**
    - **Medical Imaging**:
-     - [Google Research: AI for Medical Imaging](https://ai.google/research/teams/brain/healthcare/)
+     - [Google Research: AI for Medical Imaging] (https://research.google/blog/using-generative-ai-to-investigate-medical-imagery-models-and-datasets/)
    - **Electronic Health Records (EHRs)**:
      - [Google Cloud Healthcare API](https://cloud.google.com/healthcare-api)
    - **Predictive Analytics**:
