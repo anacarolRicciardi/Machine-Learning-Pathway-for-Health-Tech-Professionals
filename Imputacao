@@ -1,0 +1,92 @@
+
+ - IMPUTAÇÃO**
+
+
+**OBJETIVO**:
+## Preenchimento de dados faltantes
+
+
+# Objetivo
+
+A ideia deste notebook é demonstrar como podemos fazer transformações em dados heterogêneos com o sklearn usando SimpleImputer, Pipeline e ColumnTransformer. A ideia é facilitar a manipulação de tais tipos de dados, que são comuns no dia-a-dia.
+
+
+
+import pandas as pd
+import numpy as np
+# Dados de exemplo
+dados = pd.DataFrame({
+    'idade': [15, 23, 19, 30, 44, np.NaN],
+    'sexo': ['homem', 'mulher', 'homem', 'homem', np.NaN,'homem'],
+    'altura': [1.6, 1.7, np.NaN, 1.8, 1.75, 1.65],
+    'classe':  [-1, 1, -1, 1, 1, -1]
+    })
+dados
+
+dados.info()
+
+A partir do comando `info()` nota-se que existem 2 variáveis de entrada numéricas (idade e altura) e 1 variável de entrada categórica (sexo). A variável classe é a variável alvo.
+
+### Transformando os dados
+
+Considere que queremos realizar as seguintes operações:
+
+
+*   **Nos dados numéricos:** substituir os dados faltantes das variáveis pela média dos valores presentes. Depois padronizar o intervalo dessas variáveis
+*   **Nos dados categóricos:** Substituir os valores faltantes pelo valor mais frequente. Depois transformar essas categorias em um atributo numérico para usar no nosso modelo de Aprendizado de Máquina
+
+Para fazer essas operações em colunas específicas, podemos utilizar as ferramentas 'sklearn.pipeline.Pipeline' e 'sklearn.compose.ColumnTransformer`.
+
+A ferramenta 'sklearn.pipeline.Pipeline' cria uma sequencia de transformações nos dados, enquanto que a 'sklearn.compose.ColumnTransformer' realiza uma transformação em dados de uma coluna.
+
+Para substituir valores faltantes utilizaremos a classe:
+ 'sklearn.impute.SimpleImputer', para padronizar os dados
+ 'sklearn.preprocessingStandardScaler' e para converter atributos categoricos em valores numéricos
+  'sklearn.preprocessing.OneHotEncoder'.
+
+Aplicando nos dados do exemplo acima obtemos o código a seguir.
+
+
+
+from sklearn.pipeline import Pipeline
+from sklearn.compose import ColumnTransformer
+
+#from sklearn.preprocessing import StandardScaler
+#from sklearn.preprocessing import OneHotEncoder
+from sklearn.impute import SimpleImputer
+
+# Criamos um vetor com o nome das classes desejadas
+features_numericos = ['idade', 'altura']
+features_categoricos = ['sexo']
+
+# Criando os pipelines
+pipeline_numerico = Pipeline(steps=[
+    ('imputer', SimpleImputer(strategy='mean'))])
+#     ('scaler', StandardScaler())])
+
+pipeline_categorico = Pipeline(steps=[
+    ('imputer', SimpleImputer(strategy='most_frequent'))])
+#    ('onehot', OneHotEncoder())])
+
+# Criando a transformação do conjunto de dados:
+transformacao = ColumnTransformer(
+    transformers=[
+        ('transformacao numerica', pipeline_numerico, features_numericos),
+        ('transformacao categorica', pipeline_categorico, features_categoricos),
+    ])
+
+# Aplicando a transformação no dataset:
+dados_transformados = transformacao.fit_transform(dados)
+#dados_transformados.round(2)
+
+dados_transformados
+
+Note que a ordem das variáveis (features) mudou em relação ao nosso conjunto inicial. A ordem do conjunto transformado é dada pela ordem de processamento das features. No nosso caso, a ordem das features ficou:
+
+(features_numericos, features_categoricos) $\rightarrow$ (idade, altura, sexo)
+
+
+# Concatenar os dados transformados com o atributo alvo
+dados_transformados_com_classe = np.c_[dados_transformados, dados['classe']]
+dataframe_processado = pd.DataFrame(dados_transformados_com_classe)
+dataframe_processado
