@@ -71,8 +71,8 @@ This project is licensed under the **MIT License**. See the LICENSE file for det
 ## 📬 Contact
 
 If you have questions or suggestions, feel free to open an **issue** or get in touch:
-- **LinkedIn:** [Your Profile](https://www.linkedin.com/in/your-profile)
-- **Email:** your-email@example.com
+- **LinkedIn:** [Your Profile](https://www.linkedin.com/in/ana-carolina-ricciardi-4b38252a0/)
+- **Email:** acarolinapradoft@gmail.com
 
 ---
 We hope this repository supports your journey in applying Machine Learning in healthcare. Join us in revolutionizing the sector with artificial intelligence! 🌍🤖
