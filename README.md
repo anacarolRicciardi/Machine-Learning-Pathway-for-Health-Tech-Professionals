@@ -15,6 +15,7 @@ This repository includes practical examples and interactive notebooks tailored t
 - **Imputacao.ipynb**: Techniques for handling missing data, a common issue in healthcare datasets.
 - **Transformacoes_em_dados_heterogeneos.ipynb**: Transformations on complex and heterogeneous data.
 - **Heart-Failure-Analysis**: Predicting heart failure outcomes using machine learning to identify risk factors and enable early interventions.
+- **Breast_Cancer_PCA_Principal_Component_Analysis.ipynb**: A practical demonstration of PCA for dimensionality reduction and pattern identification in breast cancer data.
 
   ### Datasets
   - **hfdataset.csv**: A meticulously crafted synthetic dataset representing the complete family history of oncology patients. This dataset is an invaluable resource for developing innovative Machine Learning models and projects in the healthcare domain, enabling deeper insights into familial patterns and oncological risks.
