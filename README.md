@@ -77,7 +77,7 @@ Contributions are welcome! To collaborate:
 ---
 
 ## 📜 License
-This repository is licensed under the MIT License. See the LICENSE file for more details.
+This repository is licensed under the  License. See the LICENSE file for more details.
 
 ---
 
